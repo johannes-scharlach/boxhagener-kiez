@@ -1,0 +1,24 @@
+{
+  "name": "boxhagener-kiez",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johannes-scharlach/boxhagener-kiez",
+  "authors": [
+    "Johannes Scharlach <johannes.scharlach@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "kiez",
+    "berlin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.3.0"
+  }
+}
