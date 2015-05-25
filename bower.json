@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "knockout": "~3.3.0"
+    "knockout": "~3.3.0",
+    "pure": "~0.6.0"
   }
 }
