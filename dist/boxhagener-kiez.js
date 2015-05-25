@@ -120,11 +120,16 @@ var ViewModel = function () {
 };
 
 ko.applyBindings(new ViewModel());
-;var mapInitializer = function() {
+;var mapCenter = {
+  lat: 52.510820,
+  lng: 13.459674
+};
+
+var mapInitializer = function() {
   'use strict';
-  new google.maps.Map(document.getElementById('map-canvas'), {
-    center: { lat: -34.397, lng: 150.644},
-    zoom: 10
+  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    center: { lat: mapCenter.lat, lng: mapCenter.lng},
+    zoom: 15
   });
 };
 
